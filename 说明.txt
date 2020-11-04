@@ -1,6 +1,8 @@
 指定时间开放抢购:Gateway动态路由配置
 超卖问题:CAS操作实现乐观锁。主要用Redis的事务multi，exec命令和watch命令实现。
 买家和卖家模块解耦:RabbitMQ
+卖完商品30min后自动下架:RabbitMQ延时队列
+限流:客户端,Redis保存IP.
 流量削峰:RabbitMQ
 鉴权,过滤:Gateway
 服务降级,熔断
